@@ -13,7 +13,7 @@ import { FaNodeJs } from 'react-icons/fa'
 import { FaGitAlt } from 'react-icons/fa'
 import { FaFigma } from 'react-icons/fa'
 import { VscVscode } from "react-icons/vsc";
-import { SiAdobephotoshop } from "react-icons/si"
+import { FaPalette } from 'react-icons/fa'      // Logo Adobe général
 import { FaLinux } from "react-icons/fa"
 import { PiArrowsCounterClockwiseDuotone } from 'react-icons/pi'
 
@@ -49,7 +49,7 @@ const Competences = () => {
                         <Detail icon={FaGitAlt} name='Git' level='Intermédiaire' />
                         <Detail icon={FaFigma} name='Figma' level='Débutant' />
                         <Detail icon={PiArrowsCounterClockwiseDuotone} name='Agile' level='Intermédiaire' />
-                        <Detail icon={SiAdobephotoshop } name= 'Photoshop' level='Intermédiaire' />
+                        <Detail icon={FaPalette} name='Photoshop' level='Intermédiaire' />
                     </div>
                 </article>
             </div>
