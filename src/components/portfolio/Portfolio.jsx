@@ -4,7 +4,6 @@ import AllureSpaVue from '../../assets/portfolio-spa_vue.mp4'
 import SpotifySpa from '../../assets/portfolio-spa_spotify.mp4'
 import ReactSpa from '../../assets/portfolio-spa_react.mp4'
 import LaravelVoyage from '../../assets/portfolio-laravel_voyage.mp4'
-import Evinetory from '../../assets/portfolio-evinetory.png'
 import { FiGithub } from 'react-icons/fi'
 
 
@@ -37,15 +36,6 @@ const data = [
         languages: 'PHP',
         github: 'https://github.com/agnes31/Laravel_Voyage'
     },
-    // {
-    //     id: 4,
-    //     video: Evinetory,
-    //     title: 'eVinetory',
-    //     description: "Application de gestion de celliers. Création de compte et authentification, création de celliers, recherche et ajout de bouteilles de vin, création de listes d'achats et de favoris. Conception graphique mobile first et développement réalisé en équipe en méthode agile.",
-    //     tags: 'Laravel, MySQL',
-    //     languages: 'PHP',
-    //     // demo: 'https://evinetory-staging.johannapenet.com/'
-    // },
     {
         id: 5,
         video: ReactSpa,
