@@ -83,6 +83,8 @@
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
+    width: 100%;
+    overflow: hidden;
   }
 
   .about__me {
@@ -90,8 +92,15 @@
     margin: 2rem auto 4rem;
   }
 
+  .about__content {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
   .about__content p {
     margin: 1rem 0 1.5rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 }
 
