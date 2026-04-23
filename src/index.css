@@ -13,7 +13,8 @@
 }
 html, body {
   overflow-x: hidden;
-  max-width: 100vw;
+  max-width: 100%;  
+  width: 100%;     
 }
 
 :root {
@@ -90,6 +91,9 @@ body {
     line-height: 1.7;
     /* background-image: url(../src/assets/bg-texture.png); */
     background-image: url(../src/assets/bg-texture.png);
+    background-size: cover;        
+    background-attachment: fixed; 
+    overflow-x: hidden;     
 }
 
 /* HEADINGS */
