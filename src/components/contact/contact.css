@@ -1,7 +1,7 @@
 .container.contact__container {
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 30% 58%;
     gap: 10%;
   }
   
@@ -70,6 +70,8 @@
   @media screen and (max-width: 768px) {
     .container.contact__container {
       width: var(--container-width-sm);
+      grid-template-columns: 1fr;
+      gap: 2rem;
     }
   }
   
