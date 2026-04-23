@@ -3,7 +3,7 @@ import './about.css'
 import ME from '../../assets/1.jpg'
 import { FaAward } from 'react-icons/fa'
 import { IoMdSchool } from 'react-icons/io'
-import CV from '../../assets/Fr_CV.pdf'
+import CV from '../../assets/AS_CV_portfolio.pdf'
 
 const About = () => {
     return (
