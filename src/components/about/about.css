@@ -67,6 +67,15 @@
 .about__content p {
   margin: 1rem 0;
   color: var(--color-light);
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+}
+¢
+.about__content {
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .about__content p:first-of-type {
