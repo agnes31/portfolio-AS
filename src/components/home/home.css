@@ -36,7 +36,8 @@
 }
 
 .home__description {
-  width: clamp(300px, 50vw, 600px);
+  /* width: clamp(300px, 50vw, 600px); */
+  width: 100%;
   color: var(--color-light);
 }
 
