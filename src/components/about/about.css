@@ -1,6 +1,6 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 55%;
+  grid-template-columns: 35% 60%;
   gap: 5%;
 }
 
@@ -73,10 +73,10 @@
   max-width: 100%;
 }
 ¢
-.about__content {
+/* .about__content {
   overflow: hidden;
   max-width: 100%;
-}
+} */
 
 .about__content p:first-of-type {
   margin-top: 2rem;
@@ -124,6 +124,7 @@
   .about__me {
     width: 65%;
     margin: 0 auto 3rem;
+    margin-top: 40px;
   }
 
   .about__cards {
