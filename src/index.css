@@ -11,6 +11,10 @@
     list-style: none;
     text-decoration: none;
 }
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
 
 :root {
     --header-height: 3rem;
