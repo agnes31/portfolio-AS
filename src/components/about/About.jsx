@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-// import ME from '../../assets/1.jpg'
+import ME from '../../assets/1.jpg'
 import { FaAward } from 'react-icons/fa'
 import { IoMdSchool } from 'react-icons/io'
 import CV from '../../assets/AS_CV_portfolio.pdf'
@@ -10,11 +10,11 @@ const About = () => {
         <section id='about'>
             <h2>À propos</h2>
             <div className="container about__container">
-                {/* <div className="about__me">
+                <div className="about__me">
                     <div className="about__me-image">
                         <img src={ME} alt="Section A propos" />
                     </div>
-                </div> */}
+                </div>
                 <div className="about__content">
                     <div className="about__cards">
                     <article className='about__card'>
