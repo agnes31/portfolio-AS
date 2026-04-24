@@ -119,17 +119,10 @@
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 200px) {
   .about__container {
     max-width: 100%;
     overflow-x: hidden; 
-  }
-
-  .container.about__container {
-    width: 100%;
-    grid-template-columns: 1fr;
-    gap: 0;
-    overflow-x: hidden;
   }
 
   .about__me {
